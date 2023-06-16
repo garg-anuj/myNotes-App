@@ -1,0 +1,88 @@
+.outer-box{
+    /* background:rgb(54, 2, 151); */
+    background-image: linear-gradient(to left, #334ff4, #1c1d4f);
+    height:657px;
+}
+.outer-box span{
+    font-size: 50px;
+    color: #37e3bf;
+}
+.outer-box .inner-box{
+    background:rgb(249, 251, 252);
+    height:350px;
+    margin:50px auto;
+    width:40%;
+    padding: 30px 25px;
+    border: 12px double #0b1b8b;  
+    box-shadow: 0 0 10px 0 #000106;
+}
+.outer-box .inner-box .right-icon{
+    float: right;
+    margin-right: 4px;
+}
+.outer-box .inner-box .right-icon i{
+  padding:5px;
+  
+}
+.navbar .nav-link:focus, .nav-link:hover {
+    color: rgb(255 255 255);
+}
+
+/* //------------ Login form start --------------- */
+
+
+.form-outer{
+   display: flex;
+   background-image: url(./background.jpg);
+    justify-content: center;
+    align-items: center;
+    height: 656px;
+   
+}
+.form-outer .box{
+    position: relative;
+    background: #acadb345;
+    width: 30%;
+    padding: 40px;
+    box-shadow: 0 0 6px 0px black;
+}
+.form-outer .box:hover{
+border:1px solid #0afff3;
+}
+.form-outer .box .circle-box{
+    background:black;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-left: 40%;
+    margin-bottom: 12%;
+}
+.form-outer .box .circle-box span{
+    font-size: 44px;
+}
+.form-outer .box .circle-box h2{
+    margin-left: -74%;
+}
+.form-outer .box .form-control{
+    background: none;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-radius: 0;
+    color:white;
+}
+.form-outer .box .form-control:focus{
+    box-shadow: 0 0 0 0 ;
+}
+/* ::placeholder{
+    color: white!important;
+} */
+.form-outer .box .btn{
+    font-weight: 500;
+    border-radius: 0;
+    border: 2px solid #3fb9cf;
+}
+.form-outer .box .btn:hover{
+background:#3fb9cf ;
+}
+/* ------------End of login form------------ */
